@@ -7,14 +7,6 @@ header{
     flex-direction:row;
     align-items:center;
 }
-.partheader2{
-    width:180px;
-    height:70px;
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-}
 .partheader4{
     display: flex;
     justify-content: center;
@@ -24,6 +16,14 @@ header{
 }
 .partheader3{
     width:240px;
+    height:70px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.partheader2{
+    width:180px;
     height:70px;
     display: flex;
     align-items:center;
@@ -424,11 +424,7 @@ ul>li>div>i{
     justify-content: center;
     flex-direction: column;
 }
-.divhead3,.divhead4,.divhead1,.divhead2{
-    display: flex;
-    align-items:center;
-    margin:0 5px;
-}
+
 .divhead3{
     margin:0 100px 0 100px;
 }
@@ -438,6 +434,11 @@ ul>li>div>i{
     align-items: center;
     justify-content: center;
     padding-top:10px;
+}
+.divhead3,.divhead4,.divhead1,.divhead2{
+    display: flex;
+    align-items:center;
+    margin:0 5px;
 }
 .logocircle>i{
     color:gray;
